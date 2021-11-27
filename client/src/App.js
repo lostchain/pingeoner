@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/frontpage/frontpage.jsx";
 
-const  App = () => {
+const App = () => {
   return (
     <div>
-        <h1>Pigeoner</h1>
+      <Routes>
+        <Route exact path="/" element={ <Home/> } />
+      </Routes>
     </div>
   );
 }
