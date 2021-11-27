@@ -1,0 +1,104 @@
+.loginBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(120, 122, 122, 0.5);
+    font-family: 'Roboto', sans-serif;
+    /* z-index: 111; */
+}
+
+.loginBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 775px;
+    height: 593px;
+    background-color: #181818;
+    border-radius: 20px;
+    position: relative;
+}
+
+.loginHeader {
+    font-weight: 300;
+    position: absolute;
+    top: 20px;
+    font-size: 4rem;
+    color: rgb(230, 225, 225);
+}
+
+.pigeonLogo {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.closeIcon:hover {
+    color: rgb(221, 44, 44);
+}
+
+.loginForm>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.usernameBox {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.loginLabel {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(175, 174, 174);
+}
+
+.loginInput {
+    width: 334px;
+    height: 60px;
+    border: none;
+    background-color: #1D1D1D;
+    border-radius: 10px;
+    caret-color: #F56C08;
+    font-size: 30px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginBtn {
+    position: relative;
+    background: #424242;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    top: 55px;
+    width: 100%;
+    transition: 0.25s;
+    border: none;
+}
+
+.loginBtn:hover {
+    box-shadow: inset 11.5em 0 0 0 #F56C08;
+}
