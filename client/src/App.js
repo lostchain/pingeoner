@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
 
+import CreateUser from "./components/Register/Register";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       
       <Routes>
         <Route exact path="/" element={ <Home/> } />
+        <Route path="/user" component={CreateUser}/>
       </Routes>
       </>
   );
