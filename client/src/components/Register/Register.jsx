@@ -14,7 +14,7 @@ const Register = ({setShowReg}) => {
         e.preventDefault();
         setError(false);
         try {
-            const res = await axios.post('/auth/register', {
+            const res = await axios.post('/users/add', {
                 username: username,
                 email: email,
                 password: password,
