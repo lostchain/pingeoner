@@ -46,7 +46,7 @@
     cursor: pointer;
 }
 
-.regForm>div {
+.regForm > div {
     margin-top: 24px;
     margin-bottom: 9px;
     display: flex;
@@ -72,9 +72,9 @@
     width: 334px;
     height: 60px;
     border: none;
-    background-color: #1D1D1D;
+    background-color: #1d1d1d;
     border-radius: 10px;
-    caret-color: #F56C08;
+    caret-color: #f56c08;
     font-size: 30px;
     color: white;
     padding: 3px 15px;
@@ -102,5 +102,5 @@
 }
 
 .regBtn:hover {
-    box-shadow: inset 11.5em 0 0 0 #F56C08;
+    box-shadow: inset 11.5em 0 0 0 #f56c08;
 }

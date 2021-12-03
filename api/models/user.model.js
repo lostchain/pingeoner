@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema({
             message: "Passwords DO NOT match, try again."
         }
     }
-},{timestamps: true});
+}, { timestamps: true });
 
 userSchema.pre('save', async function(next) { // Pre-saving middleware that hashes our password before storing in DB.
     this.password = await bcrypt.hash(this.password, 12);

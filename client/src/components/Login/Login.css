@@ -50,7 +50,7 @@
     color: rgb(221, 44, 44);
 }
 
-.loginForm>div {
+.loginForm > div {
     display: flex;
     flex-direction: column;
 }
@@ -70,9 +70,9 @@
     width: 334px;
     height: 60px;
     border: none;
-    background-color: #1D1D1D;
+    background-color: #1d1d1d;
     border-radius: 10px;
-    caret-color: #F56C08;
+    caret-color: #f56c08;
     font-size: 30px;
     color: white;
     padding: 5px 15px;
@@ -100,5 +100,5 @@
 }
 
 .loginBtn:hover {
-    box-shadow: inset 11.5em 0 0 0 #F56C08;
+    box-shadow: inset 11.5em 0 0 0 #f56c08;
 }
