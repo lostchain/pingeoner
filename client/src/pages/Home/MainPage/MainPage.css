@@ -1,0 +1,24 @@
+.mainpage {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(8, 8, 10);
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10% 0;
+}
+
+.sidebar {
+    position: absolute;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.rightSidebar {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}

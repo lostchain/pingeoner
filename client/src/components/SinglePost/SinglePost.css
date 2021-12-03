@@ -1,0 +1,74 @@
+.box {
+    height: auto;
+    width: 470px;
+    max-height: 370px;
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: center; */
+    padding: 15px 15px 22px 15px;
+    border-radius: 18px;
+    position: relative;
+    margin: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.userProfilePic {
+    width: 42px;
+    border-radius: 50%;
+    border: 2px white solid;
+}
+
+.username {
+    color: blanchedalmond;
+    margin-left: 5px;
+}
+
+.date {
+    color: rgb(107, 184, 207);
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.websiteLogo {
+    position: absolute;
+    width: 42px;
+    top: 15px;
+    right: 20px;
+    opacity: 0.4;
+}
+
+.status {
+    color: rgb(247, 240, 230);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.line {
+    border: none;
+    border-top: 0.5px solid white;
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.actionIcon {
+    color: white;
+    cursor: pointer;
+}
+
+.fa-heart:hover {
+    color: red;
+}
