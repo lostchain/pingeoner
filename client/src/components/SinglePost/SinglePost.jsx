@@ -28,9 +28,15 @@ const SinglePost = () => {
             </p>
             {/* <p className="status">Lit quem persasdfffffffffffffffffffffffffffffffffffffffffffff</p> */}
             <div className="actions">
-                <i className="actionIcon fas fa-retweet"></i>
-                <i className="actionIcon far fa-comment"></i>
-                <i className="actionIcon far fa-heart"></i>
+                <i className="actionIcon fas fa-retweet">
+                    <span className="retweets">2</span>
+                </i>
+                <i className="actionIcon far fa-comment">
+                    <span className="comments">4</span>
+                </i>
+                <i className="actionIcon far fa-heart">
+                    <span className="likes">7</span>
+                </i>
             </div>
         </div>
     )

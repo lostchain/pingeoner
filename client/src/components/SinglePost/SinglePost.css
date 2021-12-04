@@ -62,13 +62,38 @@
 .actions {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .actionIcon {
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.fa-retweet:hover {
+    color:royalblue;
 }
 
 .fa-heart:hover {
     color: red;
 }
+
+.fa-comment:hover {
+    color: rgb(34, 194, 34);
+}
+.retweets {
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.comments {
+    margin-left: 5px;
+    font-size: 11px;
+}
+.likes {
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+

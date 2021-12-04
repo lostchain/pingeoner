@@ -7,10 +7,17 @@ const MainPage = () => {
         <div className="mainpage">
             <div className="sidebar">
                 <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
+                <h1>SIDEBAR</h1>
             </div>
             <div className="postsSection">
-                <SinglePost />
-                <SinglePost />
                 <SinglePost />
                 <SinglePost />
                 <SinglePost />
