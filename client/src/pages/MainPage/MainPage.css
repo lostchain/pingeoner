@@ -11,10 +11,11 @@
 .sidebar {
     align-self: flex-start;
     position: sticky;
-    top: 30px;
+    top: 20px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
